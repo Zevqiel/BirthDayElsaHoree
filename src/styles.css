@@ -1,0 +1,84 @@
+/* src/styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #6366f1, #8b5cf6);
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .birthday-card {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .birthday-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .birthday-card .content {
+    padding: 1rem;
+  }
+  
+  .birthday-card .content .title {
+    font-size: 1.2rem;
+    color: #4f46e5;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .birthday-card .content a {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: #111827;
+    text-decoration: none;
+  }
+  
+  .birthday-card .content p {
+    margin-top: 0.5rem;
+    color: #6b7280;
+  }
+  
+  .animated-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .image {
+    max-width: 10rem;
+  }
+  
+  .animated-button:hover {
+    transform: scale(1.1);
+  }
+  

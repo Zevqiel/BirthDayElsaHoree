@@ -1,0 +1,33 @@
+/* src/ParallaxSection.css */
+
+.parallax-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .yellow {
+    background-color: #4B70F5;
+  }
+  
+  .green {
+    background-color: #4C3BCF;
+  }
+  
+  .parallax-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .absolute {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .transparan {
+    background-color: rgba(1, 1, 1, 0.5);
+  }
+  
